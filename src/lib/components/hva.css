@@ -1,0 +1,24 @@
+.hav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100vw;
+  }
+
+  .hav-logo {
+    width: 200px;
+    height: 51px;
+    margin: 0 1.8em;
+    color: var(--white);
+    object-fit: unset;
+  }
+  .fdnd {
+    border-left: 1px solid var(--white);
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-family: "Open-sans", sans-serif;
+    color: var(--white);
+  }

@@ -1,0 +1,61 @@
+:root {
+    --white: #ffffff;
+    --blue: #050542;
+    --green: #66e5bf;
+    --purple: #a675f5;
+    --lavender-dark: hsl(263, 86%, 60%);
+    --attention-background: #05054233;
+    --call-to-action: #fffc86;
+    --rounded: 0.2rem;
+    --pilled: 2rem;
+    --shadow: 0.3rem;
+    --radius:1em
+  }
+
+  .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 28rem;
+    gap: 1.5em;
+    padding: 3em;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    margin-bottom: 1em;
+  }
+  /* scrollbar */
+  .box-container::-webkit-scrollbar {
+    width: 20px;
+  }
+  .box-container::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+  }
+  .box-container::-webkit-scrollbar-track {
+    background-color: var(--purple);
+  }
+  .box-container::-webkit-scrollbar-button {
+    width: 10em;
+  }
+
+.cards-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20em;
+    height: 25em;
+    padding: 1em;
+    border-radius: var(--radius);
+    background-color:var(--purple);
+    color: var(--blue);
+  }
+  .card-titles{
+    width:11.5em ;
+  }
+  .container-paragraph li{
+    font-size: .9em;
+    width:14em ;
+  }
