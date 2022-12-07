@@ -8,11 +8,11 @@ function Content() {
   if(!document) return null;
     return (
       <div className='box-container'>
-        {document.map((pre) => {
+        {document.map((pre,i) => {
           // console.log(pre)
           return (
             
-               <section className='cards-content'>
+               <section className='cards-content' key={`card-${i}`}>
                 <h2 className='card-titles'>{pre.data.title[0].text}</h2>
                 <article className='container-paragraph'>
                       <PrismicRichText field={pre.data.content} />
