@@ -32,4 +32,4 @@ npm run start
 
 ## 🧭 Bronnen
 
-* (https://kit.svelte.dev/docs/adapters) for your target environment.
+* (https://reactjs.org/docs/getting-started.html) for your target environment.
