@@ -21,9 +21,9 @@ Dit repository voor Fdnd we love web . Hierbij wordden er Interviewschema bekend
 ## 🧭Installatie & Gebruik
 ```
 * Cloning the repository
-git clone gh repo clone Yasser-Slaymen/choices-choices-the-tech-stack
+git clone https://github.com/Yasser-Slaymen/choices-choices-the-tech-stack.git
 * Moving to the folder
-cd lose-your-head-the-client-case
+cd choices-choices-the-tech-stack
 * Install NPM packages
 npm install
 * Run local server
